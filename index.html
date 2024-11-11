@@ -1,0 +1,890 @@
+<!DOCTYPE html><html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="images/red%20cube%20big.gif" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>EN-GAME</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="bx bx-cube"></i> EN-GAME
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Slide</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Members</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">About Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class="bx bxs-group"></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="bx bx-grid-alt"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class="bx bx-x cart__close" id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Team</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/RhyomieTestimonial.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Rhyomie</h3>
+                        <span class="cart__price">MENDOZA, RHYOMIE L.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/marfred.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Marfred</h3>
+                        <span class="cart__price">BERNARDO, MARFRED C.</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/king.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">King</h3>
+                        <span class="cart__price">DOLOOG, KING C.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/anthonny.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Anthony</h3>
+                        <span class="cart__price">GARCIA, ANTHONY D.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/ralph.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Ralph</h3>
+                        <span class="cart__price">GUINTO, RALPH LAUREN D.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/celine.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Celine</h3>
+                        <span class="cart__price">HIPOLITO, CELINE JANELLE T.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/froilan.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Froilan</h3>
+                        <span class="cart__price">LOPEZ, FROILAN M.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/ayesha.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Ayesha</h3>
+                        <span class="cart__price">MARQUEZ, AYESHA FAYE T.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/juan%20miguel.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Juan Miguel</h3>
+                        <span class="cart__price">MUNOZ, JUAN MIGUEL R.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/nicole.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Nicole</h3>
+                        <span class="cart__price">NAVARRO, NICOLE P.
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="images/jonathan.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Jonathan</h3>
+                        <span class="cart__price">PINEDA, JONATHAN D.                            .
+                        </span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                            <i class="bx bx-trash-alt cart__amount-trash"></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">11 MEMBERS</span>
+                <span class="cart__prices-total">EN-GAME</span>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="images/mario-talking.gif" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/rhymndz" target="_blank" class="home__social-link">
+                            FACEBOOK
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            TWITTER
+                        </a>
+                        <a href="https://www.instagram.com/rhym_92" target="_blank" class="home__social-link">
+                            INSTAGRAM
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">EN-GAME</h1>
+                        <p class="home__description">
+                           SURFACE AREA
+                        </p>
+                        <span class="home__price">IF READY PLEASE PRESS START</span>
+
+                        <div class="home__btns">
+                            <a href="#new" class="button button--gray button--small">
+                                MENU
+                            </a>
+
+                            <a href="#featured" class="button home__button">START</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!--==================== FEATURED ====================-->
+<section class="featured section container" id="featured">
+    <h2 class="section__title">
+        Featured
+    </h2>
+    
+    <div class="featured__container grid">
+        <!-- Add your SlideShare presentation iframe here -->
+        <style>
+            @media (min-width: 768px) {
+                /* Adjust width and height for desktop */
+                .featured__container iframe {
+                    width: 1024px; /* Adjust this value as needed */
+                    height: 728px; /* Adjust this value as needed */
+                }
+            }
+        </style>
+        <iframe src="https://1drv.ms/p/c/13b248b827d53dd2/IQNwtAdgH7_vQLtTqni_TNOTAXGCPlqh2XG6gDzzr-tk5LI" width="100%" height="auto" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+
+    <!-- Swiper Section -->
+    <div class="swiper new-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+            </div>
+            <div class="swiper-slide">
+                
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+        
+        <div class="swiper-button-next">
+            <i class="bx bx-right-arrow-alt"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="bx bx-left-arrow-alt"></i>
+        </div>
+    </div>
+</section>
+
+            
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Our Story
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Inspirational Message  <br> this year
+                        </h1>
+    
+                        <p class="story__description">
+                            
+                    "Exploring the EN-GAME Surface area is like going on a big adventure. 
+                    Every step we take helps us learn more about the world around us. 
+                    Even when things get tough, we keep trying because every discovery is like finding a treasure.
+                     So let's keep exploring, keep learning, and keep growing. Together, we'll uncover amazing things and make the future even brighter!"
+                        </p>
+    
+                        <a href="#featured" class="button button--small">Discover</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="images/cube%203d.gif" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    TEAM
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="images/marfred.jpg" alt="" class="products__img">
+                        <h3 class="products__title">MARFRED BERNARDO</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+                
+                    <article class="products__card">
+                        <img src="images/king.jpg" alt="" class="products__img">
+                        <h3 class="products__title">KING DOLOOG</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/profile.php?id=100076219545640&amp;mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/anthonny.jpg" alt="" class="products__img">
+                        <h3 class="products__title">ANTHONY GARCIA</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/athonyG?mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+                    
+                    <article class="products__card">
+                        <img src="images/ralph.jpg" alt="" class="products__img">
+                        <h3 class="products__title">RALPH LAUREN GUINTO</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/profile.php?id=100011588256899&amp;mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+                    
+                    <article class="products__card">
+                        <img src="images/celine.jpg" alt="" class="products__img">
+                        <h3 class="products__title">CELINNE JANELLE HIPOLITO</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/celine.hipolitoii.1?mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/froilan.png" alt="" class="products__img">
+                        <h3 class="products__title">FROILAN LOPEZ</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/froilopez.1909?mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/ayesha.jpg" alt="" class="products__img">
+                        <h3 class="products__title">AYESHA FAYE MARQUEZ</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/yshfymrqz00?mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/rhyomie.jpg" alt="" class="products__img">
+                        <h3 class="products__title">RHYOMIE MENDOZA </h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/rhymndz">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/juan%20miguel.png" alt="" class="products__img">
+                        <h3 class="products__title">JUAN MIGUEL MUNOZ</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/juanmiguel.munoz.35?mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/nicole.jpg" alt="" class="products__img">
+                        <h3 class="products__title">NICOLE NAVARRO</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/profile.php?id=100007723009158&amp;mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/jonathan.png" alt="" class="products__img">
+                        <h3 class="products__title">JONATHAN PINEDA</h3>
+                        <span class="products__price">Facebook</span>
+                        <a href="https://www.facebook.com/profile.php?id=100008448700563&amp;mibextid=ZbWKwL">
+                            <button class="products__button">
+                                <i class="bx bx-user-plus"></i>
+                            </button>
+                        </a>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="images/plus%20icon.png" alt="" class="products__img">
+
+                        <h3 class="products__title">ADD MORE</h3>
+                        <span class="products__price">null</span>
+
+                        <button class="products__button">
+                            <i class="bx bx-plus"></i>                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class="bx bxs-quote-alt-left"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    Surface Area is the sum of the areas of the shapes that cover the surface of a solid figure.
+                                </p>
+                                <h3 class="testimonial__date">April 15. 2024</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="images/RhyomieTestimonial.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Rhyomie Mendoza</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class="bx bxs-quote-alt-left"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    Surface area is like wrapping paper. 
+                                    It's the total area of all the sides of a solid figure if you were to wrap it completely with paper. 
+                                    You find it by adding up the areas of each face.
+                                </p>
+                                <h3 class="testimonial__date">April 15. 2024</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="images/RhyomieTestimonial.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Rhyomie Mendoza</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class="bx bxs-quote-alt-left"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    Surface area is the total number of squares needed to cover the entire surface of a solid figure. 
+                                    You count the squares on each face and then add them all up.
+                                </p>
+                                <h3 class="testimonial__date">April 15. 2024</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="images/RhyomieTestimonial.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Rhyomie Mendoza</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="bx bx-left-arrow-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="images/red%20cube%20big.gif" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    MORE
+                </h2>
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="images/EN%20GAME%20PPT%20ICON.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">EN-GAME</h3>
+                                    <span class="new__price">Surface Area</span>
+                                </div>
+        
+                                <a href="https://cdn.discordapp.com/attachments/852741693789962280/1229785529201983549/Colorful_Retro_Playful_Asking_Game_Presentation.pptx?ex=6630f206&amp;is=661e7d06&amp;hm=cd4cef49385401787fed2fd1081c987141034261622c4eeb1489f02ffc37f83f&amp;" class="button new__button">DOWNLOAD</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="images/powerpoint.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">POWERPOINT (ADD)</h3>
+                                    <span class="new__price">null</span>
+                                </div>
+        
+                                <button class="button new__button">DOWNLOAD</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="images/EN%20GAME%20PPT%20ICON.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">EN-GAME</h3>
+                                    <span class="new__price">Surace Area</span>
+                                </div>
+        
+                                <a href="https://cdn.discordapp.com/attachments/852741693789962280/1229785529201983549/Colorful_Retro_Playful_Asking_Game_Presentation.pptx?ex=6630f206&amp;is=661e7d06&amp;hm=cd4cef49385401787fed2fd1081c987141034261622c4eeb1489f02ffc37f83f&amp;" class="button new__button">DOWNLOAD</a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="images/powerpoint.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">POWERPOINT (ADD)</h3>
+                                    <span class="new__price">null</span>
+                                </div>
+        
+                                <button class="button new__button">DOWNLOAD</button>
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="newsletter__description">
+                            Subscribe to our email 
+                            Newsletter
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>1234 - Rhyomie</li>
+                        <li>Men Doza 43210</li>
+                        <li>123-456-789</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Copy Right</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Team</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Rhyomie</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Eimoyhr</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Rhyomie Mendoza</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Mendoza Rhyomie</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/rhymndz" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">© lo.waste. All rigths reserved</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+    
+</body></html>
